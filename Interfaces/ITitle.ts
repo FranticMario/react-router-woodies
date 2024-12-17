@@ -1,4 +1,6 @@
-export interface ITitle {
+ interface ITitle {
     text: string,
     pagesName: string
 }
+
+export default ITitle
