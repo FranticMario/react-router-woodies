@@ -1,5 +1,5 @@
 import "./Title.css";
-import ITitle from "../../../interfaces/ITitle";
+import ITitle from "../../../Interfaces/ITitle";
 import LogoIcon from "../../assets/SVG/LogoIcon";
 
 
