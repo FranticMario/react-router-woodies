@@ -1,0 +1,49 @@
+.footer {
+    background: #F1F1F1;
+
+    padding-top: 80px;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    gap: 16px;
+    padding: 24px 0;
+    margin-bottom: 53px;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer__image-box {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 508px;
+    height: 327px;
+}
+
+
+.copyright {
+    position: absolute;
+    bottom: 12px;
+    right: 50%;
+
+    color: #8D8D8D;
+
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

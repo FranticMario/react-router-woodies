@@ -1,0 +1,37 @@
+.title__container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.title__line {
+    flex-grow: 1;
+    background-color: black;
+    height: 1px;
+}
+
+.title__page {
+    color: rgba(34, 34, 34, 0.10);
+    text-align: right;
+    font-family: Nunito;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.title__components {
+    color: #3E3F43;
+    font-family: Nunito;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title__container svg path {
+    stroke-opacity: 0.5;
+    stroke: #897942;
+}
+

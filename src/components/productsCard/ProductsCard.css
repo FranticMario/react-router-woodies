@@ -1,0 +1,54 @@
+.products__container {
+    display: flex;
+    position: relative;
+    gap: 56px;
+}
+
+.products__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 24px;
+    z-index: 1000;
+    position: relative;
+    width: 280px;
+    height: 400px;
+    overflow: hidden;
+
+}
+
+@media screen and (width < 890px) {
+    .products__container {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.products__card a {
+    align-self: flex-end; 
+}
+
+.card {
+    position: relative;
+}
+
+.card svg {
+    position: absolute; /* Позиционирование фона */
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* .btn__card {
+    position: absolute;
+
+} */
+
+.Jenson {
+    position: absolute;
+    align-self: center;
+    top: 19%;
+    right: 34px;
+}

@@ -1,0 +1,37 @@
+.header {
+    position: fixed; 
+    top: 20px;          
+    left: 0;
+    width: 100%;     
+    z-index: 1000;
+    padding-bottom: 165px;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__container {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+
+.logo__title {
+    color: #3E3F43;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+}
+
+.ul__navigation {
+    display: flex;
+    gap: 48px;
+}
+

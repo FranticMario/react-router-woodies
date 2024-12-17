@@ -1,0 +1,29 @@
+.about__img-container {
+    position: relative;
+}
+
+.about__wrapper {
+    padding: 0 120px;
+}
+
+.about__img {
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    width: 388px;
+    height: 306px;
+}
+
+
+.about__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about__text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 448px;
+}

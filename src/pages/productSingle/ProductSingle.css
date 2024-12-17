@@ -1,0 +1,13 @@
+.single__product-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.single__img-card {
+    width: 280px;
+    height: 400px;  
+}
+
+.single__product-desc {
+    max-width: 448px;
+}
